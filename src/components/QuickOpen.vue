@@ -32,10 +32,10 @@ export default defineComponent({
         categoryOrder(): GameType[] {
             if (this.isEvenDay) {
                 // Even day order: SPORT -> HEARDLE -> MUSIC_FILM -> GAMES -> MISC
-                return [GameType.SPORT, GameType.HEARDLE, GameType.MUSIC_FILM, GameType.MISC, GameType.GAMES];
+                return [GameType.SPORT, GameType.HEARDLE, GameType.MUSIC_FILM, GameType.MISC, GameType.GAMES, GameType.LOL];
             } else {
                 // Odd day order: HEARDLE -> MUSIC_FILM -> SPORT -> GAMES -> MISC
-                return [GameType.HEARDLE, GameType.MUSIC_FILM, GameType.SPORT, GameType.MISC, GameType.GAMES];
+                return [GameType.HEARDLE, GameType.MUSIC_FILM, GameType.SPORT, GameType.MISC, GameType.GAMES, GameType.LOL];
             }
         }
     },

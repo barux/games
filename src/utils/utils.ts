@@ -24,6 +24,7 @@ const websites: Array<Website> = [
     new Website("Musicvidle", "https://www.musicvidle.com", GameType.MUSIC_FILM),
     new Website("SongLess", "https://lessgames.com/songless", GameType.MUSIC_FILM),
     new Website("Themely", "https://www.themely.se/", GameType.MUSIC_FILM),
+    new Website("Spotle Movies", "https://spotle.movie/", GameType.MUSIC_FILM),
 
     new Website("Top 10", "https://playfootball.games/football-tenable", GameType.SPORT),
     new Website("Top 10 v2", "https://futbol-11.com/futbol-top10", GameType.SPORT),
@@ -38,6 +39,10 @@ const websites: Array<Website> = [
     new Website("Gamedle", "https://www.gamedle.wtf", GameType.GAMES),
     new Website("GuessThe.Game", "https://guessthe.game", GameType.GAMES),
     new Website("Rankdle", "https://rankdle.com", GameType.GAMES),
+
+    new Website("Loldle", "https://loldle.net", GameType.LOL),
+    new Website("LoL Buildle", "https://www.buildle.gg", GameType.LOL),
+    new Website("Lolix", "https://lolix.gg/minigames", GameType.LOL),
 
     new Website("GeoGrid", "https://www.geogridgame.com", GameType.BARUX),
     new Website("BikeGrid", "https://bikegrid.escapecollective.com/", GameType.BARUX),
@@ -78,8 +83,6 @@ const legacyWebsites: Array<Website> = [
 
     new Website("Isaacle", "https://isaacle.net", GameType.GAMES),
 
-    new Website("Loldle", "https://loldle.net", GameType.LOL),
-    new Website("LoL Buildle", "https://www.buildle.gg", GameType.LOL),
     new Website("LoLDoku", "https://loldoku.com", GameType.LOL),
     new Website("Guess the LoL Player", "https://www.esportle.net", GameType.LOL),
     new Website("Guess the LoL Squad", "https://asukachikaru.github.io/lcs-lec-team-quiz", GameType.LOL),
