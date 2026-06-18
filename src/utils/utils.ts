@@ -36,7 +36,7 @@ const websites: Array<Website> = [
     new Website("7a0", "https://7a0.com.br/en", GameType.SPORT),
 
     new Website("AniGuessr", "https://aniguessr.com", GameType.MISC),
-    new Website("24-0", "https://www.24-0.com/", GameType.MISC),
+    new Website("24-0", "https://24-0.app/", GameType.MISC),
 
     new Website("Gamedle", "https://www.gamedle.wtf", GameType.GAMES),
     new Website("GuessThe.Game", "https://guessthe.game", GameType.GAMES),
