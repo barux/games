@@ -33,13 +33,12 @@ const websites: Array<Website> = [
     new Website("Impostor", "https://futbol-11.com/futbol11-impostor", GameType.SPORT),
     new Website("Countdown", "https://playfootball.games/futbol-list-a/", GameType.SPORT),
     new Website("Bingo", "https://playfootball.games/football-bingo/daily", GameType.SPORT),
-    new Website("7a0", "https://7a0.com.br/en", GameType.SPORT),
 
     new Website("AniGuessr", "https://aniguessr.com", GameType.MISC),
-    new Website("24-0", "https://24-0.app/", GameType.MISC),
+    new Website("Doctordle", "https://doctordle.org/", GameType.MISC),
 
-    new Website("Gamedle", "https://www.gamedle.wtf", GameType.GAMES),
     new Website("GuessThe.Game", "https://guessthe.game", GameType.GAMES),
+    new Website("Gamedle", "https://www.gamedle.wtf", GameType.GAMES),
     new Website("Rankdle", "https://rankdle.com", GameType.GAMES),
 
     new Website("Loldle", "https://loldle.net", GameType.LOL),
@@ -108,6 +107,7 @@ const legacyWebsites: Array<Website> = [
     new Website("Heardle 1HitWonder", "https://wonders.heardledecades.xyz", GameType.HEARDLE),
     new Website("Heardle Queen", "https://queen.heardlegames.xyz", GameType.HEARDLE),
 
+    new Website("24-0", "https://24-0.app/", GameType.MISC),
     new Website("Pokedoku", "https://pokedoku.com", GameType.MISC),
     new Website("Pokegrid", "https://www.pokegrid.net/", GameType.MISC),
     new Website("GuessTheMovie", "https://guessthemovie.name", GameType.MISC),
@@ -129,6 +129,7 @@ const legacyWebsites: Array<Website> = [
     new Website("Artle", "https://artle.uk", GameType.TO_BE_CONFIRMED),
     new Website("NGA Artle", "https://www.nga.gov/artle.html", GameType.TO_BE_CONFIRMED),
 
+    new Website("7a0", "https://7a0.com.br/en", GameType.SPORT),
     new Website("Indovina chi", "https://playfootball.games/who-are-ya/big-5", GameType.SPORT),
     new Website("Indovina chi Serie A", "https://playfootball.games/who-are-ya/serie-a", GameType.SPORT),
     new Website("Indovina chi Premier", "https://playfootball.games/who-are-ya/premier-league", GameType.SPORT),
