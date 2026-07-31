@@ -1,7 +1,7 @@
 <template>
     <div class="gamesList">
         <template v-for="[gameType, games] in getWebsitesMapByType(LegacyEnum.NO)">
-            <div class="gamesListElement px-4" v-if="games.length > 0">
+            <div class="gamesListElement" v-if="games.length > 0">
                 <div class="gamesListHeader">
                     <div class="externalOpenButton mb-3">
                         <button class="btn btn-outline-primary" @click="openCategoryInNewTab(gameType, LegacyEnum.NO)">
@@ -22,8 +22,8 @@
             </div>
         </template>
     </div>
-    <div class="d-flex justify-content-center align-items-center w-50 mt-4" id="collapseButton">
-        <div class="w-50">
+    <div id="collapseButton">
+        <div class="collapseButtonInner">
             <button class="btn btn-outline-light w-100" type="button" data-bs-toggle="collapse"
                 data-bs-target="#legacyGames">
                 Mostra giochi legacy
@@ -32,7 +32,7 @@
     </div>
     <div class="gamesList collapse" id="legacyGames">
         <template v-for="[gameType, games] in getWebsitesMapByType(LegacyEnum.YES)">
-            <div class="gamesListElement px-4" v-if="games.length > 0">
+            <div class="gamesListElement" v-if="games.length > 0">
                 <div class="gamesListHeader">
                     <div class="externalOpenButton mb-3">
                         <button class="btn btn-outline-primary" @click="openCategoryInNewTab(gameType, LegacyEnum.YES)">
@@ -90,23 +90,51 @@ export default defineComponent({
 })
 </script>
 
-<style>
-/* mobile */
-@media screen and (max-width: 1400px) {
+<style scoped>
+.gamesList {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.25rem;
+    width: 100%;
+}
+
+.gamesListHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gamesListElement {
+    padding-inline: 0.25rem;
+}
+
+#collapseButton {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 2rem 0 1.5rem;
+}
+
+.collapseButtonInner {
+    width: min(24rem, 50%);
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
     .gamesList {
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        /* margin-top: 1em; */
+        display: block;
+        column-count: 2;
+        column-gap: 0.5rem;
     }
 
     .gamesListElement {
-        padding-top: 1em;
-        padding-bottom: 1em;
+        display: inline-block;
+        break-inside: avoid;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
         width: 100%;
-    }
-
-    .gamesListElement:not(:last-child) {
         border-bottom: 1px solid #5e5e5e;
     }
 
@@ -118,25 +146,45 @@ export default defineComponent({
     }
 
     .externalOpenButton {
-        margin-left: 2em;
+        margin-left: 2rem;
     }
 }
 
-/* desktop */
-@media screen and (min-width: 1400px) {
+/* Mobile */
+@media screen and (max-width: 767.98px) {
     .gamesList {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: start;
-        /* margin-top: 2em; */
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+    }
+
+    .gamesListElement {
+        width: 100%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .gamesListElement:not(:last-child) {
+        border-bottom: 1px solid #5e5e5e;
     }
 
     .gamesListHeader {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        flex-direction: row-reverse;
+        justify-content: space-between;
         align-items: center;
+    }
+
+    .externalOpenButton {
+        margin-left: 1rem;
+    }
+
+    #collapseButton {
+        margin-top: 1.5rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .collapseButtonInner {
+        width: 100%;
     }
 }
 </style>

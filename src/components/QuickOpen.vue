@@ -60,5 +60,23 @@ export default defineComponent({
     gap: 1rem;
     padding: 0.5rem;
     margin: 0.5rem 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (max-width: 767.98px) {
+    .quick-open-container {
+        gap: 0.5rem;
+        padding: 0.5rem 0;
+    }
+
+    .quick-open-container span {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .quick-open-container .btn {
+        flex: 1 1 calc(50% - 0.5rem);
+    }
 }
 </style>

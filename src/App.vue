@@ -1,7 +1,6 @@
 <template>
     <div id="main" class="d-flex flex-column">
         <div class="d-flex flex-column justify-content-center align-items-center flex-grow-1">
-            <HeaderBanner />
             <div class="text-warning text-center">
                 {{ $t('popupInfoPrompt') }}
             </div>
@@ -16,7 +15,6 @@
 import { defineComponent } from 'vue'
 import Footer from './components/Footer.vue';
 import GamesSection from './components/GamesSection.vue';
-import HeaderBanner from './components/HeaderBanner.vue';
 import { useI18nStore } from './stores/i18n';
 import QuickOpen from './components/QuickOpen.vue';
 
@@ -24,7 +22,6 @@ export default defineComponent({
     components: {
         Footer,
         GamesSection,
-        HeaderBanner,
         QuickOpen,
     },
     data() {
@@ -43,13 +40,20 @@ export default defineComponent({
     min-height: 100dvh;
     background-color: #252526;
     color: antiquewhite;
+    padding-inline: 2.5rem;
 }
 
-/* mobile */
-@media screen and (max-width: 1400px) {
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
     #main {
-        padding: 2em;
-        padding-bottom: 0%;
+        padding-inline: 2rem;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 767.98px) {
+    #main {
+        padding-inline: 1.25rem;
     }
 }
 </style>
