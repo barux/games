@@ -47,6 +47,7 @@ export default defineComponent({
 @media screen and (min-width: 768px) and (max-width: 1199.98px) {
     #main {
         padding-inline: 2rem;
+        padding-top: 2rem;
     }
 }
 
@@ -54,6 +55,7 @@ export default defineComponent({
 @media screen and (max-width: 767.98px) {
     #main {
         padding-inline: 1.25rem;
+        padding-top: 1.25rem;
     }
 }
 </style>
