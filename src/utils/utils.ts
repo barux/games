@@ -42,6 +42,7 @@ const websites: Array<Website> = [
     new Website("Gamedle", "https://www.gamedle.wtf", GameType.GAMES),
     new Website("Rankdle", "https://rankdle.com", GameType.GAMES),
     new Website("GameGuessr", "https://gameguessr.io/en/modes", GameType.GAMES),
+    new Website("Fermi", "https://fermi.gg/", GameType.GAMES),
 
     new Website("Loldle", "https://loldle.net", GameType.LOL),
     new Website("LoL Buildle", "https://www.buildle.gg", GameType.LOL),
