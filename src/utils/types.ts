@@ -15,7 +15,6 @@ export enum GameType {
     HEARDLE = "HEARDLE",
     MISC = "MISC",
     SPORT = "SPORT",
-    TO_BE_CONFIRMED = "TO_BE_CONFIRMED",
     BARUX = "BARUX",
     FEDERICHEDDU = "FEDERICHEDDU",
 }

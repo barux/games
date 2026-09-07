@@ -28,36 +28,21 @@ const websites: Array<Website> = [
     new Website("Spotle Movies", "https://spotle.movie/", GameType.MUSIC_FILM),
 
     new Website("Top 10", "https://playfootball.games/football-tenable", GameType.SPORT),
-    new Website("Top 10 v2", "https://futbol-11.com/futbol-top10", GameType.SPORT),
+    new Website("Top 10 v2", "https://futbol11.com/futbol11-top10", GameType.SPORT),
     new Website("Career", "https://playfootball.games/career-path-challenge", GameType.SPORT),
-    new Website("Grid", "https://futbol-11.com/futbol-grid", GameType.SPORT),
+    new Website("Grid", "https://futbol11.com/futbol11-grid", GameType.SPORT),
     new Website("Impostor", "https://futbol-11.com/futbol11-impostor", GameType.SPORT),
+    new Website("Statdle", "https://futbol11.com/futbol11-statdle", GameType.SPORT),
+    new Website("Goltexto", "https://futbol11.com/futbol11-goltexto", GameType.SPORT),
     new Website("Countdown", "https://playfootball.games/futbol-list-a/", GameType.SPORT),
     new Website("Bingo", "https://playfootball.games/football-bingo/daily", GameType.SPORT),
 
     new Website("AniGuessr", "https://aniguessr.com", GameType.MISC),
-    new Website("Doctordle", "https://doctordle.org/", GameType.MISC),
 
     new Website("GuessThe.Game", "https://guessthe.game", GameType.GAMES),
     new Website("Gamedle", "https://www.gamedle.wtf", GameType.GAMES),
     new Website("Rankdle", "https://rankdle.com", GameType.GAMES),
-    new Website("GameGuessr", "https://gameguessr.io/en/modes", GameType.GAMES),
     new Website("Fermi", "https://fermi.gg/", GameType.GAMES),
-
-    new Website("Loldle", "https://loldle.net", GameType.LOL),
-    new Website("LoL Buildle", "https://www.buildle.gg", GameType.LOL),
-    new Website("Lolix", "https://lolix.gg/minigames", GameType.LOL),
-
-    new Website("GeoGrid", "https://www.geogridgame.com", GameType.BARUX),
-    new Website("BikeGrid", "https://bikegrid.escapecollective.com/", GameType.BARUX),
-    new Website("GuessTheRider", "https://guesstherider.com/", GameType.BARUX),
-
-    new Website("Guess NBA Player", "https://poeltl.nbpa.com", GameType.FEDERICHEDDU),
-    new Website("NBA Things", "https://hoopgrids.com", GameType.FEDERICHEDDU),
-    new Website("Guess Jumpshot", "https://www.batter-up.app/jumpshot/", GameType.FEDERICHEDDU),
-    new Website("TimeQuiz", "https://www.hoopgoat.com/quiz/", GameType.FEDERICHEDDU),
-    new Website("GuessPlayerBalorda", "https://craftednba.com/games/guess-the-player", GameType.FEDERICHEDDU),
-    new Website("82-0", "https://www.82-0.com/", GameType.FEDERICHEDDU),
 ];
 
 const legacyWebsites: Array<Website> = [
@@ -87,7 +72,11 @@ const legacyWebsites: Array<Website> = [
     new Website("Pixletters", "https://pixletters.com", GameType.WORDS),
 
     new Website("Isaacle", "https://isaacle.net", GameType.GAMES),
+    new Website("GameGuessr", "https://gameguessr.io/en/modes", GameType.GAMES),
 
+    new Website("Loldle", "https://loldle.net", GameType.LOL),
+    new Website("LoL Buildle", "https://www.buildle.gg", GameType.LOL),
+    new Website("Lolix", "https://lolix.gg/minigames", GameType.LOL),
     new Website("LoLDoku", "https://loldoku.com", GameType.LOL),
     new Website("Guess the LoL Player", "https://www.esportle.net", GameType.LOL),
     new Website("Guess the LoL Squad", "https://asukachikaru.github.io/lcs-lec-team-quiz", GameType.LOL),
@@ -110,6 +99,7 @@ const legacyWebsites: Array<Website> = [
     new Website("Heardle 1HitWonder", "https://wonders.heardledecades.xyz", GameType.HEARDLE),
     new Website("Heardle Queen", "https://queen.heardlegames.xyz", GameType.HEARDLE),
 
+    new Website("Doctordle", "https://doctordle.org/", GameType.MISC),
     new Website("24-0", "https://24-0.app/", GameType.MISC),
     new Website("Pokedoku", "https://pokedoku.com", GameType.MISC),
     new Website("Pokegrid", "https://www.pokegrid.net/", GameType.MISC),
@@ -127,10 +117,7 @@ const legacyWebsites: Array<Website> = [
     new Website("Stattogories", "https://www.stattogories.com", GameType.MISC),
     new Website("Nerdle", "https://nerdlegame.com", GameType.MISC),
     new Website("Metazooa", "https://metazooa.com/play/game", GameType.MISC),
-
-    new Website("Actorle", "https://actorle.com", GameType.TO_BE_CONFIRMED),
-    new Website("Artle", "https://artle.uk", GameType.TO_BE_CONFIRMED),
-    new Website("NGA Artle", "https://www.nga.gov/artle.html", GameType.TO_BE_CONFIRMED),
+    new Website("Actorle", "https://actorle.com", GameType.MISC),
 
     new Website("7a0", "https://7a0.com.br/en", GameType.SPORT),
     new Website("Indovina chi", "https://playfootball.games/who-are-ya/big-5", GameType.SPORT),
@@ -143,7 +130,17 @@ const legacyWebsites: Array<Website> = [
     new Website("Legends", "https://futbol-11.com/futbol11-legends", GameType.SPORT),
     new Website("Missing 11", "https://playfootball.games/missing-11/global/", GameType.SPORT),
 
+    new Website("GeoGrid", "https://www.geogridgame.com", GameType.BARUX),
+    new Website("BikeGrid", "https://bikegrid.escapecollective.com/", GameType.BARUX),
+    new Website("GuessTheRider", "https://guesstherider.com/", GameType.BARUX),
     new Website("GuessTheBook", "https://guessthebook.app", GameType.BARUX),
+
+    new Website("Guess NBA Player", "https://poeltl.nbpa.com", GameType.FEDERICHEDDU),
+    new Website("NBA Things", "https://hoopgrids.com", GameType.FEDERICHEDDU),
+    new Website("Guess Jumpshot", "https://www.batter-up.app/jumpshot/", GameType.FEDERICHEDDU),
+    new Website("TimeQuiz", "https://www.hoopgoat.com/quiz/", GameType.FEDERICHEDDU),
+    new Website("GuessPlayerBalorda", "https://craftednba.com/games/guess-the-player", GameType.FEDERICHEDDU),
+    new Website("82-0", "https://www.82-0.com/", GameType.FEDERICHEDDU),
 ];
 
 export function getWebsitesMapByType(legacy: LegacyEnum) {

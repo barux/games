@@ -19,7 +19,6 @@ const it = {
         HEARDLE: "Heardle",
         MISC: "Varie",
         SPORT: "Sport",
-        TO_BE_CONFIRMED: "Da testare",
         BARUX: "Barux",
         FEDERICHEDDU: "Federicheddu",
     },
