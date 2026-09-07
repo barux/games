@@ -26,6 +26,7 @@ const websites: Array<Website> = [
     new Website("SongLess", "https://lessgames.com/songless", GameType.MUSIC_FILM),
     new Website("Themely", "https://www.themely.se/", GameType.MUSIC_FILM),
     new Website("Spotle Movies", "https://spotle.movie/", GameType.MUSIC_FILM),
+    new Website("GuessTheMovie", "https://guessthemovie.name/", GameType.MUSIC_FILM),
 
     new Website("Top 10", "https://playfootball.games/football-tenable", GameType.SPORT),
     new Website("Top 10 v2", "https://futbol11.com/futbol11-top10", GameType.SPORT),
@@ -103,7 +104,6 @@ const legacyWebsites: Array<Website> = [
     new Website("24-0", "https://24-0.app/", GameType.MISC),
     new Website("Pokedoku", "https://pokedoku.com", GameType.MISC),
     new Website("Pokegrid", "https://www.pokegrid.net/", GameType.MISC),
-    new Website("GuessTheMovie", "https://guessthemovie.name", GameType.MISC),
     new Website("GuessTheLogo", "https://guessthelogo.wtf", GameType.MISC),
     new Website("GuessTheAngle", "https://guesstheangle.wtf", GameType.MISC),
     new Website("Angle", "https://angle.wtf", GameType.MISC),
