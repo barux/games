@@ -92,7 +92,6 @@ const legacyWebsites: Array<Website> = [
     new Website("NFLXdle", "https://likewise.com/games/nflxdle", GameType.MUSIC_FILM),
     new Website("Actorle", "https://actorle.com", GameType.MUSIC_FILM),
 
-
     new Website("Heardle Xmas", "https://xmas.heardledecades.xyz", GameType.HEARDLE),
     new Website("Heardle Emo", "https://emo.heardledecades.com", GameType.HEARDLE),
     new Website("Heardle Disco", "https://disco.heardledecades.xyz", GameType.HEARDLE),
