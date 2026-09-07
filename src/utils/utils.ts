@@ -90,6 +90,8 @@ const legacyWebsites: Array<Website> = [
     new Website("Moviedle", "https://likewise.com/games/moviedle", GameType.MUSIC_FILM),
     new Website("Posterdle", "https://likewise.com/games/posterdle", GameType.MUSIC_FILM),
     new Website("NFLXdle", "https://likewise.com/games/nflxdle", GameType.MUSIC_FILM),
+    new Website("Actorle", "https://actorle.com", GameType.MUSIC_FILM),
+
 
     new Website("Heardle Xmas", "https://xmas.heardledecades.xyz", GameType.HEARDLE),
     new Website("Heardle Emo", "https://emo.heardledecades.com", GameType.HEARDLE),
@@ -117,17 +119,12 @@ const legacyWebsites: Array<Website> = [
     new Website("Stattogories", "https://www.stattogories.com", GameType.MISC),
     new Website("Nerdle", "https://nerdlegame.com", GameType.MISC),
     new Website("Metazooa", "https://metazooa.com/play/game", GameType.MISC),
-    new Website("Actorle", "https://actorle.com", GameType.MISC),
 
     new Website("7a0", "https://7a0.com.br/en", GameType.SPORT),
     new Website("Indovina chi", "https://playfootball.games/who-are-ya/big-5", GameType.SPORT),
     new Website("Indovina chi Serie A", "https://playfootball.games/who-are-ya/serie-a", GameType.SPORT),
     new Website("Indovina chi Premier", "https://playfootball.games/who-are-ya/premier-league", GameType.SPORT),
-    new Website("Pyramid", "https://futbol-11.com/futbol11-pyramid", GameType.SPORT),
     new Website("Guess Tennis Player", "https://tenizgame.github.io", GameType.SPORT),
-    new Website("Clubs", "https://futbol-11.com/futbol11-clubs", GameType.SPORT),
-    new Website("Nations", "https://futbol-11.com/futbol11", GameType.SPORT),
-    new Website("Legends", "https://futbol-11.com/futbol11-legends", GameType.SPORT),
     new Website("Missing 11", "https://playfootball.games/missing-11/global/", GameType.SPORT),
 
     new Website("GeoGrid", "https://www.geogridgame.com", GameType.BARUX),
