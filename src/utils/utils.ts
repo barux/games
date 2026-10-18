@@ -32,9 +32,7 @@ const websites: Array<Website> = [
     new Website("Top 10 v2", "https://futbol11.com/futbol11-top10", GameType.SPORT),
     new Website("Career", "https://playfootball.games/career-path-challenge", GameType.SPORT),
     new Website("Grid", "https://futbol11.com/futbol11-grid", GameType.SPORT),
-    new Website("Impostor", "https://futbol-11.com/futbol11-impostor", GameType.SPORT),
-    new Website("Statdle", "https://futbol11.com/futbol11-statdle", GameType.SPORT),
-    new Website("Goltexto", "https://futbol11.com/futbol11-goltexto", GameType.SPORT),
+    new Website("Impostor", "https://futbol11.com/futbol11-impostor", GameType.SPORT),
     new Website("Countdown", "https://playfootball.games/futbol-list-a/", GameType.SPORT),
     new Website("Bingo", "https://playfootball.games/football-bingo/daily", GameType.SPORT),
 
@@ -43,7 +41,9 @@ const websites: Array<Website> = [
     new Website("GuessThe.Game", "https://guessthe.game", GameType.GAMES),
     new Website("Gamedle", "https://www.gamedle.wtf", GameType.GAMES),
     new Website("Rankdle", "https://rankdle.com", GameType.GAMES),
+    new Website("F1 Guess", "https://f1.barux.dev/", GameType.GAMES),
     new Website("Fermi", "https://fermi.gg/", GameType.GAMES),
+    new Website("Daily Red Pokemon", "https://daily-red.com/", GameType.GAMES),
 ];
 
 const legacyWebsites: Array<Website> = [
@@ -119,6 +119,8 @@ const legacyWebsites: Array<Website> = [
     new Website("Nerdle", "https://nerdlegame.com", GameType.MISC),
     new Website("Metazooa", "https://metazooa.com/play/game", GameType.MISC),
 
+    new Website("Statdle", "https://futbol11.com/futbol11-statdle", GameType.SPORT),
+    new Website("Goltexto", "https://futbol11.com/futbol11-goltexto", GameType.SPORT),
     new Website("7a0", "https://7a0.com.br/en", GameType.SPORT),
     new Website("Indovina chi", "https://playfootball.games/who-are-ya/big-5", GameType.SPORT),
     new Website("Indovina chi Serie A", "https://playfootball.games/who-are-ya/serie-a", GameType.SPORT),
