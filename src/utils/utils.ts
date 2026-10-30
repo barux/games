@@ -1,6 +1,8 @@
 import { GameType, LegacyEnum, Website } from "./types";
 
 const websites: Array<Website> = [
+    new Website("FarFlung", "https://farflung.game/", GameType.GEOGRAPHIC),
+
     new Website("Heardle Duos", "https://duos.heardledecades.xyz", GameType.HEARDLE),
     new Website("Heardle 2020s", "https://20s.heardledecades.com", GameType.HEARDLE),
     new Website("Heardle 2010s", "https://10s.heardledecades.com", GameType.HEARDLE),
