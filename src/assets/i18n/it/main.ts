@@ -14,7 +14,6 @@ const it = {
         WORDS: "Parole",
         GEOGRAPHIC: "Geografia",
         GAMES: "Giochi",
-        LOL: "LoL",
         MUSIC_FILM: "Musica, Film",
         HEARDLE: "Heardle",
         MISC: "Varie",

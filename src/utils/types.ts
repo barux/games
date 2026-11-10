@@ -10,7 +10,6 @@ export enum GameType {
     WORDS = "WORDS",
     GEOGRAPHIC = "GEOGRAPHIC",
     GAMES = "GAMES",
-    LOL = "LOL",
     MUSIC_FILM = "MUSIC_FILM",
     HEARDLE = "HEARDLE",
     MISC = "MISC",

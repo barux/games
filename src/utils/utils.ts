@@ -2,6 +2,7 @@ import { GameType, LegacyEnum, Website } from "./types";
 
 const websites: Array<Website> = [
     new Website("FarFlung", "https://farflung.game/", GameType.GEOGRAPHIC),
+    new Website("WonderHop", "https://wonderhop.io/", GameType.GEOGRAPHIC),
 
     new Website("Heardle Duos", "https://duos.heardledecades.xyz", GameType.HEARDLE),
     new Website("Heardle 2020s", "https://20s.heardledecades.com", GameType.HEARDLE),
@@ -47,6 +48,7 @@ const websites: Array<Website> = [
     new Website("Fermi", "https://fermi.gg/", GameType.GAMES),
     new Website("Daily Red", "https://daily-red.com/", GameType.GAMES),
     new Website("JungleGuessr", "https://jungleguessr.gg", GameType.GAMES),
+    new Website("Champdle", "https://www.champdle.com/", GameType.GAMES),
 ];
 
 const legacyWebsites: Array<Website> = [
@@ -77,15 +79,14 @@ const legacyWebsites: Array<Website> = [
 
     new Website("Isaacle", "https://isaacle.net", GameType.GAMES),
     new Website("GameGuessr", "https://gameguessr.io/en/modes", GameType.GAMES),
-
-    new Website("Loldle", "https://loldle.net", GameType.LOL),
-    new Website("LoL Buildle", "https://www.buildle.gg", GameType.LOL),
-    new Website("Lolix", "https://lolix.gg/minigames", GameType.LOL),
-    new Website("LoLDoku", "https://loldoku.com", GameType.LOL),
-    new Website("Guess the LoL Player", "https://www.esportle.net", GameType.LOL),
-    new Website("Guess the LoL Squad", "https://asukachikaru.github.io/lcs-lec-team-quiz", GameType.LOL),
-    new Website("Guess the LoL", "https://guess-the-lol.com", GameType.LOL),
-    new Website("Guess Champ by Sound", "https://lynge.tv/listen", GameType.LOL),
+    new Website("Loldle", "https://loldle.net", GameType.GAMES),
+    new Website("LoL Buildle", "https://www.buildle.gg", GameType.GAMES),
+    new Website("Lolix", "https://lolix.gg/minigames", GameType.GAMES),
+    new Website("LoLDoku", "https://loldoku.com", GameType.GAMES),
+    new Website("Guess the LoL Player", "https://www.esportle.net", GameType.GAMES),
+    new Website("Guess the LoL Squad", "https://asukachikaru.github.io/lcs-lec-team-quiz", GameType.GAMES),
+    new Website("Guess the LoL", "https://guess-the-lol.com", GameType.GAMES),
+    new Website("Guess Champ by Sound", "https://lynge.tv/listen", GameType.GAMES),
 
     new Website("Framequiz", "https://www.framequiz.com", GameType.MUSIC_FILM),
     new Website("Melodle", "https://melodle.yesmeno.com", GameType.MUSIC_FILM),
